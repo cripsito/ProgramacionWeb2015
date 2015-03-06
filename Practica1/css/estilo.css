@@ -6,6 +6,16 @@ body{
 	width: 90%;
 	margin: 0 5%;
 }
+table{
+	width: 100%;
+	background-color: rgba(177, 173, 255, 0.6);
+	background: rgba(177, 173, 255, 0.6);
+	color: rgba(177, 173, 255, 0.6);
+
+}
+td,th{
+	border: 1px solid black;
+}
 .header-container{
 	border-bottom: 20px solid #E44D26;
 }
@@ -94,5 +104,21 @@ nav a:hover{
 		-moz-box-shadow: 8px 7px 24px #000000;
 -webkit-box-shadow: 8px 7px 24px #000000;
 box-shadow: 8px 7px 24px #000000;
+	}
+	.title{
+		float: left;
+		width: 38%
+	}
+	nav{
+		float: right;
+		width: 38%;
+	}
+	.main article{
+		float: left;
+		width: 57%;
+	}
+	.main aside{
+		float: right;
+		width: 28%;
 	}
 }

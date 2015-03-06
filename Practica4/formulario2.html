@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario 2</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
+  </head>
+  <body>
+    <h1>Formulario</h1>
+
+    <div class="container text-center">
+    	<h1>Fill out all the fields below. Hit "Register!"</h1>
+        <br></br>
+        <form method="GET" action="formulario2.html">
+
+            <div class="row"><!--EMAIL-->
+
+                <div class="col-md-3 text-right">
+                    <label for="email" >E-mail</label>
+                </div>
+                <div class="col-md-3 text-left">
+                    <input class="form-control" type="email" name="email" id="email" required>
+                </div>
+                <div class="col-md-3 text-left">
+                    <a href="https://www.google.com.mx">Privacy Policy</a>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email "> Confirm E-mail</label>
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" type="email" name="email" id="email" required>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- Sex-->
+                <div class="col-md-3 text-right">
+                    <label for="email "> Sex</label>
+                </div>
+                <div class="col-md-3 text-left">
+                    <div class="radio">
+                        <label>
+                            <input type="radio"  name="sex" >
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio"  name="sex" >
+                            Female
+                        </label>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email ">Year of Birth</label>
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" type="date" name="email" id="email" required>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email ">ZIP/Postal Code</label>
+                </div>
+                <div class="col-md-3 text-left">
+                    <input class="form-control" type="number" name="email" id="email" required>
+                    (e.g. 98104)
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email ">Country</label>
+                </div>
+                <div class="col-md-3">
+                    
+                    
+                                <select class="form-control" name="country" id="country" placeholder="Contraseña">
+                                    <option>Mexico</option>
+                                    <option>USA</option>
+                                    <option>Francia</option>  
+                                    <option>Italia</option> 
+                                    <option>otro</option>                               
+                                </select>
+                            
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email ">Select a password</label>
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" type="password" name="email" id="email" required>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <div class="row"><!-- CONFIRMAR EMAIL-->
+                <div class="col-md-3 text-right">
+                    <label for="email ">Confirm password</label>
+                </div>
+                <div class="col-md-3">
+                    <input class="form-control" type="password" name="email" id="email" required>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            </form>
+            <br>
+            <input type="button" value=" REGISTER "
+                    onclick="calcula('-')"
+                    class="btn btn-info btn-lg">
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </body>
+</html>
